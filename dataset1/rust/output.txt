@@ -1,0 +1,53 @@
+❯ time cargo run --release
+    Finished release [optimized] target(s) in 0.00s
+     Running `target/release/hardware-project`
+[*] Computing key for key byte 0 ...
+ ===> Key byte 65: 0.8335713262662695
+[*] K[0]: 65
+[*] Computing key for key byte 1 ...
+ ===> Key byte 117: 0.7777452305884653
+[*] K[1]: 117
+[*] Computing key for key byte 2 ...
+ ===> Key byte 115: 0.8188099336649539
+[*] K[2]: 115
+[*] Computing key for key byte 3 ...
+ ===> Key byte 116: 0.8297999991373642
+[*] K[3]: 116
+[*] Computing key for key byte 4 ...
+ ===> Key byte 114: 0.8275674727852919
+[*] K[4]: 114
+[*] Computing key for key byte 5 ...
+ ===> Key byte 97: 0.8306098955142721
+[*] K[5]: 97
+[*] Computing key for key byte 6 ...
+ ===> Key byte 108: 0.8257118813864768
+[*] K[6]: 108
+[*] Computing key for key byte 7 ...
+ ===> Key byte 111: 0.7994504892150331
+[*] K[7]: 111
+[*] Computing key for key byte 8 ...
+ ===> Key byte 112: 0.8088749303571012
+[*] K[8]: 112
+[*] Computing key for key byte 9 ...
+ ===> Key byte 105: 0.8354629186292936
+[*] K[9]: 105
+[*] Computing key for key byte 10 ...
+ ===> Key byte 116: 0.8301106191789579
+[*] K[10]: 116
+[*] Computing key for key byte 11 ...
+ ===> Key byte 104: 0.8442536991809211
+[*] K[11]: 104
+[*] Computing key for key byte 12 ...
+ ===> Key byte 101: 0.876525832821698
+[*] K[12]: 101
+[*] Computing key for key byte 13 ...
+ ===> Key byte 99: 0.8456428423068307
+[*] K[13]: 99
+[*] Computing key for key byte 14 ...
+ ===> Key byte 117: 0.7960506532022369
+[*] K[14]: 117
+[*] Computing key for key byte 15 ...
+ ===> Key byte 115: 0.7909815734474333
+[*] K[15]: 115
+[*] Keys: [65, 117, 115, 116, 114, 97, 108, 111, 112, 105, 116, 104, 101, 99, 117, 115]
+cargo run --release  209,46s user 0,84s system 99% cpu 3:30,73 total
